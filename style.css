@@ -7,7 +7,12 @@ body {
 /* header */
 header {
   display: flex;
-  background-image: url(blur-nav.png.jpeg), url(img-nav.png);
+  background-image: linear-gradient(
+      to right,
+      rgba(43, 74, 97, 0.87),
+      rgba(43, 74, 97, 0.8)
+    ),
+    url("./images/img-nav.png");
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom: 3px solid #fff;
@@ -82,7 +87,7 @@ header {
   padding: 180px 204px;
 }
 .hero {
-  background-image: url(background-1.png);
+  background-image: url("./images/background-1.png");
   background-repeat: no-repeat;
   width: 1440px;
   height: 740px;
@@ -124,7 +129,7 @@ header {
 
 /* Between Card */
 .between-card {
-  background-image: url(bird-big.png);
+  background-image: url("./images/bird-big.png");
   background-repeat: no-repeat;
   background-position: bottom;
   height: 340px;
@@ -166,7 +171,7 @@ header {
   padding-right: 12px;
 }
 .trailer {
-  background-image: url(background-2.png);
+  background-image: url("./images/background-2.png");
   background-repeat: no-repeat;
   width: 1440px;
   padding: 330px 590px;
@@ -179,7 +184,7 @@ header {
 }
 /* Language */
 .language {
-  background-image: url(background-3.png);
+  background-image: url("./images/background-3.png");
   background-repeat: no-repeat;
   width: 1440px;
   height: 704px;
@@ -216,17 +221,17 @@ header {
   list-style: none;
 }
 .card-left {
-  background-image: url(arrow-left.png);
+  background-image: url("./images/arrow-left-white.jpg");
   background-repeat: no-repeat;
   background-position: center;
 }
 .card-center {
-  background-image: url(bird-small.png);
+  background-image: url("./images/bird-small.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 .card-right {
-  background-image: url(arrow-right.png);
+  background-image: url("./images/arrow-right.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -249,7 +254,12 @@ header {
 }
 /* Footer */
 footer {
-  background-image: url(blur-footer.png), url(img-footer.png);
+  background-image: linear-gradient(
+      to right,
+      rgba(43, 74, 97, 0.87),
+      rgba(43, 74, 97, 0.8)
+    ),
+    url("./images/img-footer.png");
   background-repeat: no-repeat;
   background-size: contain;
   height: 223px;
